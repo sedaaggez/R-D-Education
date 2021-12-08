@@ -1,0 +1,110 @@
+# Git About
+
+git  —version
+git  —help
+git help log
+git help --all
+
+# Configuring Your Name & Email
+
+git config —global user.name “your_name”
+git config —global user.email “your_email”
+git config --list
+
+# Initializing a repository
+
+- ls -a
+- git init
+- ls -a 
+- git status
+
+# Staging Files
+
+- git add file1
+- git status 
+- git add file2 file3
+- git add .
+- git status
+- git rm --cached file1
+- git status
+
+# Making commits
+
+- git log
+- git commit -m “commit message 1”
+- git log 
+create file4
+- git add file4
+- git status
+- git commit -m “commit message 2”
+- git log
+- git checkout <commit-hash>
+- git branch
+- git checkout master 
+- git branch
+
+# Creating a new branch
+
+- git branch <new-branch-name>
+- git branch
+- git checkout <branch-name>
+- git branch 
+- git log 
+- git status
+- git add . (git add —all) 
+- git commit -m “commit message 3”
+- git log 
+- git branch 
+- git switch master
+- git log yap 
+- git checkout -b <new-branch-name> 
+- git status
+- git checkout master
+- git status
+
+# Merging branches
+
+- git merge <branch-name> 
+- git log 
+- git branch -d <branch-name>
+- git branch
+
+# Push Local Repository to GitHub
+
+- git remote add origin URL
+- git push --set-upstream origin master
+
+# Git Fetch
+
+- git fetch origin
+- file4 create on Github
+- git fetch origin 
+- git status
+- git log origin/master 
+
+# Push Local Repository to GitHub
+
+- git remote add origin URL
+- git push --set-upstream origin master
+- git diff origin/master
+
+# Git Pull
+
+- git merge origin/master or git pull origin
+- git diff origin/master
+- git log origin/master
+
+# Git Push to Github
+
+- git commit -a -m "commit message 4"
+- git status
+- git push origin
+
+# Git Pull Branch from GitHub
+
+- git branch -a
+- git checkout <remote-branch-name>
+- git pull
+- git branch
+
+
