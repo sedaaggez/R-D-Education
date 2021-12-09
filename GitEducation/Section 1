@@ -56,7 +56,7 @@ create file4
 - git log 
 - git branch 
 - git switch master
-- git log yap 
+- git log
 - git checkout -b <new-branch-name> 
 - git status
 - git checkout master
@@ -68,11 +68,6 @@ create file4
 - git log 
 - git branch -d <branch-name>
 - git branch
-
-# Push Local Repository to GitHub
-
-- git remote add origin URL
-- git push --set-upstream origin master
 
 # Git Fetch
 
