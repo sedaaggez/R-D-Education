@@ -107,4 +107,35 @@ create file4
 - git pull
 - git branch
 
+# Git Shortlog
+
+- git shortlog -s             
+- git shortlog -e       
+- git shortlog -n
+
+# Git Stash
+
+- git status
+- make changes to the project
+- git status
+- git stash save “stash update 1”
+- make changes to the project
+- git status
+- git stash save “stash update 2” 
+- git stash list yap.
+- git stash show -p 0 
+- git stash show -p 1
+- git stash drop
+- git stash list 
+- make changes to the project
+- git status
+- git stash save “stash update 3”
+- git stash list
+- git stash drop 1
+- git stash list
+- git stash pop
+- git stash save “stash update 4”
+- git stash list
+- git stash pop 1
+
 
